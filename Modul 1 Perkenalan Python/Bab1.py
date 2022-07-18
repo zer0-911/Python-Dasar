@@ -1,5 +1,12 @@
-a = 10
-if (a % 2) == 0:
-    print("a merupakan bilangan genap")
+nilai = int(input("Inputkan nilaimu: "))
+
+if nilai >= 90:
+    grade = "A"
+elif nilai >= 80:
+    grade = "AB"
+elif nilai >= 70:
+    grade = "B"
 else:
-    print("a merupakan bilangan ganjil")
+    grade = "C"
+
+print("Grade: %s" % grade)

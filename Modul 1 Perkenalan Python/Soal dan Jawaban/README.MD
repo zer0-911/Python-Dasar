@@ -1,4 +1,4 @@
-# Operasi Aritmatika
+# 1. Operasi Aritmatika
 
 ## Deskripsi
 
@@ -30,4 +30,50 @@ Cetak tiga baris seperti yang dijelaskan di atas.
 5
 -3
 4
+```
+
+# 2. Split Bill Yuk
+
+## Deskripsi
+
+Buat program untuk membagi tagihan restoran di antara teman-teman.
+
+- Dapatkan nilai integer untuk jumlah total teman dan tetapkan ke variabel total_teman.
+- Dapatkan nilai integer untuk total tagihan dan tetapkan ke variabel total_tagihan.
+- Tambahkan pajak 20% ke tagihan subtotal dan bagi total tagihan di antara teman-teman.
+
+## Input
+
+Baris pertama berisi total teman, _total_teman_.
+
+Baris kedua berisi total tagihan, _total_tagihan_.
+
+## Output
+
+Cetak total tagihan per orang.
+
+## Sample Input 1
+
+```bash
+3
+40
+```
+
+## Sample Output 1
+
+```bash
+16.0
+```
+
+## Sample Input 2
+
+```bash
+6
+99
+```
+
+## Sample Output 2
+
+```bash
+19.8
 ```

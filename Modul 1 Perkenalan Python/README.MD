@@ -130,7 +130,7 @@ bila ingin menulis lebih dari satu statement dalam satu baris, maka harus memisa
 Contoh:
 
 ```
-print("Hello"); print("World"); print("Belajar") nama\_depan = "Iqbal"; nama\_belakang = "Fatur"
+print("Hello"); print("World"); print("Belajar") nama_depan = "Iqbal"; nama_belakang = "Fatur"
 ```
 
 2. Penulisan String
@@ -140,13 +140,15 @@ String adalah teks atau kumpulan dari karakter. String dalam pemrograman biasany
 Contoh:
 
 ```
-judul = "Belajar Pemrograman Python disini" penulis = 'Saya'
+judul = "Belajar Pemrograman Python disini"
+penulis = 'Saya'
 ```
 
 Atau bisa menggunakan triple tanda petik. Contoh:
 
 ```
-judul = """Belajar Pemrograman Python disini""" penulis = '''Saya'''
+judul = """Belajar Pemrograman Python disini"""
+penulis = '''Saya'''
 ```
 
 3. Penulisan Case
@@ -156,7 +158,8 @@ Sintak Python bersifat case sensitive, artinya ‘teksini’ dengan ‘TeksIni�
 Contoh:
 
 ```
-judul = "Belajar Dasar-dasar Python" Judul = "Belajar Membuat Program Python"
+judul = "Belajar Dasar-dasar Python"
+Judul = "Belajar Membuat Program Python"
 ```
 
 Antara variabel ‘judul’ dengan ‘Judul’ itu dibedakan.
@@ -228,7 +231,7 @@ Sering digunakan untuk menuliskan dokumentasi.
 class Coba:
 
 """kelas pagar untuk membuat objek Coba."""
-def \_\_init\_\_(self, Aku, Kamu, Kita):
+def __init__(self, Aku, Kamu, Kita):
 
     self.Aku = Aku
 
@@ -238,7 +241,7 @@ def \_\_init\_\_(self, Aku, Kamu, Kita):
 
 # Mengakses dokumentasi kelas
 
-print(Coba.\_\_doc\_\_)
+print(Coba.__doc__)
 
 input('\ntekan [enter] untuk melihat bantuan (dokumentasi) kelas: ')
 
@@ -478,7 +481,7 @@ print("Hasil %d + %d = %d" % (a,b,c))
 - Operator Pangkat
 
 ```
-c = a \*\* b
+c = a ** b
 
 print("Hasil %d + %d = %d" % (a,b,c))
 ```
@@ -494,10 +497,8 @@ Seperti namanya, operator ini digunakan untuk memberikan tugas pada variabel.
 | Pengurangan  | -=         |
 | Perkalian    | \*=        |
 | Pembagian    | /=         |
-
-| Sisa Bagi   | %=    |
-| ----------- | ----- |
-| Pemangkatan | \*\*= |
+| Sisa Bagi    | %=         |
+| Pemangkatan  | \*\*=      |
 
 Contoh Penggunaan:
 
@@ -520,15 +521,15 @@ x=1 # Definisikan ulang x=1 krn setelah operasi x+=y maka x=11 x-=y
 
 print("hasil dari x-=y adalah: ", x)
 
-# Operator multiply AND \*=
+# Operator multiply AND *=
 
 x=1 # Definisikan ulang x=1
 
-x\*=y
+x*=y
 
-print("hasil dari x\*=y adalah: ", x)
+print("hasil dari x*=y adalah: ", x)
 
-# Operator divide AND /=
+# Operator divide AND =
 
 x=1 # Definisikan ulang x=1
 
@@ -548,7 +549,7 @@ print("hasil dari x%=y adalah: ", x)
 
 x=1 # Definisikan ulang x=1
 
-x\*\*=y
+x**=y
 
 print("hasil dari x\*\*=y adalah: ", x)
 
